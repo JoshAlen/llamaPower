@@ -1,0 +1,66 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0 !important;
+    background-image:url(/stylesheets/topJumBG.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.fa-github, .navbar-brand {
+    font-size: 2em;
+}
+.fa-github:hover {
+    color: #4078c0;
+}
+jumbotron {
+    position: relative;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.mainJumbotron {
+    background-color: white;
+    height: 100%;
+    opacity: 0.6;
+}
+.opacityNone {
+    opacity: 1 !important;
+}
+.navbar-default {
+    margin-bottom: 0 !important;
+}
+.navbar-default {
+ padding-top: 15px !important;
+ padding-bottom: 15px !important;
+}
+.btn {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+img {
+    transition: transform 0.5s;
+}
+img:hover {
+    transform: rotate(15deg) ;
+}
+
+@media screen and (max-width: 990px) {
+    body {
+        text-align: center;
+    }
+    .BGwhite {
+    text-align: center !important;
+    }
+}
+.BGwhite {
+    background-color: white;
+    text-align: right;
+}
+li {
+    color: white;
+}
+li:hover {
+    color: black;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+        <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script language="javascript" type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <title>Llama Power</title>
+    </head>
+        <header id="headerID">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><i class="fa fa-gitlab" aria-hidden="true"></i></a>
+            </div>
+    
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Llama Power <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Link</a></li>
+              </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://github.com/seitzjoshua7"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+        </header>
+        <body class="hero">
+          <div class="jumbotron mainJumbotron">
+              <div class="container">
+                  <div class="row">
+                    <div class="col col-md-5 col-md-offset-1 col-sm-12 col-xs-12">
+                        <img src="/stylesheets/llama.png" height="60%" width="60%">
+                    </div>
+                    <div class="col col-md-5 col-sm-12">
+                      <h1>Welcome!</h1>
+                      <hr>
+                      <h2>The majestic llama.</h2>
+                      <h3>Do you know?</h3>
+                      <button type="button" class="btn btn-info">Click me for random llama facts!</button>
+                      <p>
+                        <a href="http://www.softschools.com/facts/animals/llama_facts/130/">Llama Facts from softschool.com</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-offset-6 col-md-6 col-sm-12">
+                      <iframe src="https://player.vimeo.com/video/59356856" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                      <p><a href="https://vimeo.com/59356856">Caminandes: Llama Drama - Short Movie</a> from <a href="https://vimeo.com/pablovazquez">Pablo Vazquez</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                    </div>
+                  </div>
+              `</div>
+              <div class="jumbotron BGwhite">
+                <div class="container">
+                  <div class="row">
+                    <div class="col col-md-offset-1 col-md-5">
+                      <h2><i class="fa fa-search" aria-hidden="true"></i> Llama VS Robot!</h2>
+                      <hr>
+                      <ul>
+                        <li>
+                          <h4>Llamas can be used as guards againts robot because they are quickly alert and protect the herd when they spot a predator.</h4>
+                        </li>
+                         <li>
+                          <h4>Llama can help humans carry heavy load of supplies such as weapons (emp grenades &#x263A), food and water.</h4>
+                        </li>
+                         <li>
+                          <h4>Llama only needs grass and water to survive and they can help keep humans warm at night to fight another day.</h4>
+                        </li>
+                      <p>
+                        <a href="http://www.softschools.com/facts/animals/llama_facts/130/">Llama Facts from softschool.com</a>
+                      </p>
+                      </ul>
+                      
+                    </div>
+                    <div class="col col-md-5">
+                      <img src="/stylesheets/robot.png" height="60%" width="60%">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        
+        </body> 
+    
+    <script>
+    $( document ).ready(function() {
+      var funFacts = [
+        "Llamas can be 6 feet tall.", 
+        "Llama is a close relative of the camel, but without hump.",
+        "Llama can weight between 280 to 540 pounds.",
+        "Their body is covered with wool which can be black, gray, white, or brown, with varitety of patterns.",
+        "Llama has elongated face, large nostrils and long ears that are curved inwardly.",
+        "Llamas can be divided in two groups according to the length of their fur: short coated: Ccara, and the medium coated: Curaca.",
+        "They are very social animals, which like to live in groups.",
+        "Llama are known as animals that spit when provoked or threatened.",
+        "Llamas are very intelligent, but stubborn animals.",
+        "Llamas's lifespan is between 20 to 30 years."];
+      
+      $(".btn").click(function(){
+        $("h3").html(funFacts[Math.floor((Math.random()*10))]);});
+      });
+    </script>
+
+    <script type='text/javascript' src="/js/main.js"></script>
+    <footer id="footerID">
+        
+    </footer>
+<html>
